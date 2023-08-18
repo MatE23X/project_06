@@ -1,0 +1,28 @@
+/* Web Fonts -------------------- */
+
+@font-face {
+  font-family: 'Abolition Regular';
+  src: url('../fonts/abolition-regular-webfont.eot');
+  src: url('../fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/abolition-regular-webfont.woff') format('woff'),
+       url('../fonts/abolition-regular-webfont.ttf') format('truetype');
+}
+/*can use the font specified in many different browsers*/
+  
+/* Base Styles -------------------- */
+  
+  * {
+    box-sizing: border-box;
+  }
+  /*insured that the padding and margin's will be included in the elements 
+  width and height??*/
+  body {
+   
+    color: #878787;
+    margin: 0;
+    font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  /*this part gives the font a size the same as the immediate parent, and specifies
+  the line height as 1.5 of the default line height.
+
+
