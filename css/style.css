@@ -103,6 +103,48 @@ the children, which are the li's will push the one in the bottom by 10px
     color: lightcoral;
   }
   /*the color the links turn to as soon as we press on them*/
+
+
+  /* Main Styles --------------------- */
+  
+  .main-header {
+    padding-top: 170px;
+    height: 850px;
+    background: linear-gradient(#ffa949,transparent 90%),
+                linear-gradient(0deg, #fff, transparent),
+                #ffa949 url('../img/mountains.jpg') no-repeat center;
+    background-size:cover;/*fully inclose the elements inside*/
+    color: white;/*text color will be white*/
+  }
+  /*the text is pushed down 170px relative to the parent, as we can see one of the color
+  occupies 90% of the gradient while the other one occupies 10%
+  A background image is also specified with "no-repeat center" used to reset
+  the default*/
+
+  .title {
+    font-size: 1.625rem; /* 26px/16px */
+    letter-spacing: .065em;
+    font-weight: 200;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+    
+  }
+  /*this is part of the header. Padding-bottom is used only because we wanted to push 
+  down the line beneath it not h1*/
+
+  .intro {
+    font-size: 1.25em; /* 20px/16px */
+    line-height: 1.6; 
+    color: initial; /*specifies the color as the parent's color???*/
+  }
+  .primary-content,
+  .main-header,
+  .main-footer {
+    text-align: center;
+  }
+  
+  
+  
   
 
 
