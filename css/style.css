@@ -30,6 +30,7 @@
     font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
   }
   /*the font we defined is now used for our heading h1 and h2*/
+  /*h1 is child of the main-header, h2 is grand child of primary-content*/
 
   h1 {  
     font-size: 5.625rem; /* 90px/16px  */
@@ -44,6 +45,25 @@
   /*line-height is the space between two texts that are on top of each other*/
   /*text-shadow:h v blur color; the 'a' in rgba is alpha, that specifies opacity
   0<alpha<1(fully opaque, fully transparent*/
-  /*margin: 12px 0 0 0;
+  /*margin: 12px 0 0 0;*/
+
+  h2 {
+    font-size: 3.3125em; /* 53px/16px  */
+    font-weight: normal;
+    line-height: 1.1;
+    margin: 0 0 .5em; /* 0 0 26px */
+  }
+/*here the margin is tricky... 0 top, 0 right, 0 left, .5em bottom(1/2 of the default
+margin of it's immediate parent*/
+
+h3 {
+  font-size: 1.25em; /* 20px/16px  */
+  color: #48525c;
+  line-height: 1.2;
+  margin-bottom: 1.7em; /* 34px */
+}
+
+
+
 
 
