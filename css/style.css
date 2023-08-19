@@ -23,6 +23,27 @@
     font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   /*this part gives the font a size the same as the immediate parent, and specifies
-  the line height as 1.5 of the default line height.
+  the line height as 1.5 of the default line height.*/
+
+   h1,
+  h2 {
+    font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
+  }
+  /*the font we defined is now used for our heading h1 and h2*/
+
+  h1 {  
+    font-size: 5.625rem; /* 90px/16px  */
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1.3; 
+    text-shadow: 0 1px 1px rgba(0,0,0,.8);
+    margin: 12px 0 0;
+  }
+ 
+  /*font-size is 5.625 times that of the root element/default*/
+  /*line-height is the space between two texts that are on top of each other*/
+  /*text-shadow:h v blur color; the 'a' in rgba is alpha, that specifies opacity
+  0<alpha<1(fully opaque, fully transparent*/
+  /*margin: 12px 0 0 0;
 
 
