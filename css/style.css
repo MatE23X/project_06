@@ -142,7 +142,42 @@ the children, which are the li's will push the one in the bottom by 10px
   .main-footer {
     text-align: center;
   }
-  
+    
+  .primary-content {
+    padding-top: 25px;
+  padding-bottom: 95px;
+}
+
+.secondary-content {
+    padding-top: 80px;
+    padding-bottom: 70px;
+  border-bottom: 2px solid #dfe2e6;
+}
+/* saw the padding in action by clicking that button you showed it me
+it was very clear that the padding had taken effect.*/
+
+.callout {
+  font-size: 1.25em;
+  border-bottom: 3px solid;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block; /*used so that padding top and bottom can work*/
+}
+/*watched the effects of this block by using border property*/
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 10px solid #ffa949;
+}
+/*basic padding and bottom color for the footer*/
+
+.t-border {
+  border-top: 2px solid #dfe2e6;
+}/*added a border to primary and secondary contents by using the fact that
+classes can take more than one name*/
+
+
+
   
   
   
