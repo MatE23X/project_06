@@ -256,6 +256,57 @@ classes can take more than one name*/
   the wildflife class's padding which was 18% 24% decreases to the given padding
   to accomodate the decrease in viewport width. the margin also decreases for that
   reason*/
+
+  @media (max-width: 768px) {
+    .primary-content,
+    .secondary-content {
+      width: 100%;
+      padding: 20px;
+      border-top: none;
+    }
+  
+    /*at 768px and below, the elements will occupy 768px with a padding of 20px
+    from their border.*/
+    .main-header {
+      max-height: 380px;
+      padding: 50px 25px 0;
+    }
+    /*here we have specified a max-height and a padding*/
+    /*this part of the code is not very clear*/
+
+    .title {
+      font-size: 1.3rem;
+      border: none;
+    }
+    h1 {
+      font-size: 5rem;
+      line-height: 1.1;
+    }
+    /*the top two blocks are font-size reductions to accomodate the change in 
+    width.*/
+
+    .arrow {
+      display: none;
+    }
+    /*the width we are at now doesn't comfortably display the arrow, so it is
+    not displayed*/
+    .intro {
+      font-size: 1rem;
+    }
+    /*decrease in font size*/
+    .resorts,
+    .tips {
+      float: none;
+      width: 100%;
+    }
+    /*as the width decreases, it will not make sense to display rows,
+    so we must turn them into columns, turning the float off in this case.*/
+
+    .main-footer {
+      padding: 20px 0;
+    }
+    /*this is padding adjustment to accomodate the decrease in viewport width.
+  }
   
 
     
