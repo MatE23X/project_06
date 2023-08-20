@@ -229,6 +229,18 @@ classes can take more than one name*/
     /*float has a functionality similar to column reverse*/
     /*if we use float, we must clear/use clear fix.*/
 
+    /* Float Clearfix ------------------ */
+
+    /*here the use of clearfix is different. We use pseudoclass.*/
+
+    .group:after{
+      content:"";
+      display:table;
+      clear:both;
+    }
+    /*the clearfix worked, and now, the footer that was distrubed by our use of float
+    has returned to it's rightful place.
+
     
 
 
