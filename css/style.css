@@ -239,7 +239,24 @@ classes can take more than one name*/
       clear:both;
     }
     /*the clearfix worked, and now, the footer that was distrubed by our use of float
-    has returned to it's rightful place.
+    has returned to it's rightful place.*/
+
+      @media (max-width: 1024px) {
+    .primary-content,
+    .secondary-content {
+      width: 90%;
+    }
+    .wildlife {
+      padding: 10% 12%;
+      margin: 50px 0 20px;
+    }
+  }
+  /*at this width, the width of the primary and secondary content both increases from
+  75% to 90%;
+  the wildflife class's padding which was 18% 24% decreases to the given padding
+  to accomodate the decrease in viewport width. the margin also decreases for that
+  reason*/
+  
 
     
 
