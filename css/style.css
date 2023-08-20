@@ -211,6 +211,26 @@ classes can take more than one name*/
   }
   /*the big arrow is given a specific width and a margin*/
 
+    /* Floated Columns ------------------ */
+  
+    .resorts,
+    .tips {
+      width: 46.5%;
+    }
+    /*take 46.5% of their parent's width, which is secondary-content*/
+    
+    .tips {
+      float: left;
+    }
+    
+    .resorts {
+      float: right;
+    }
+    /*float has a functionality similar to column reverse*/
+    /*if we use float, we must clear/use clear fix.*/
+
+    
+
 
 
   
